@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  background-color: #f4b942;
+  padding: 15px;
+  justify-content: space-between;
+  border-bottom: 2px solid #ddd;
+}
+
+.navbar a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.navbar button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.navbar button:hover {
+  background-color: #45a049;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.pokemon-section {
+  border: 2px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.pokemon-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pokemon-info p {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.carousel img {
+  width: 200px;
+  height: 200px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.navbar button {
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background-color: #d32f2f;
+}

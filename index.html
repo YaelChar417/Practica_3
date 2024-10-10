@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Pokémon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="media/pokeball.png" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="#pikachu">Pikachu</a>
+      <a href="#charmander">Charmander</a>
+      <a href="#squirtle">Squirtle</a>
+      <a href="#bulbasaur">Bulbasaur</a>
+      <button onclick="toggleColors()">Cambiar colores</button>
+    </div>
+
+    <div class="content">
+      <section id="pikachu" class="pokemon-section">
+        <h2 style="color: yellow">Pikachu</h2>
+        <div class="pokemon-info">
+          <p>
+            Pikachu es un Pokémon de tipo Eléctrico y uno de los más reconocidos
+            de la franquicia Pokémon, conocido por su color amarillo y su cola
+            con forma de rayo. Es famoso por ser el compañero de Ash Ketchum en
+            la serie de anime. Pikachu tiene la capacidad de generar
+            electricidad, que almacena en sus mejillas, y puede liberar
+            descargas eléctricas cuando se siente amenazado o emocionado. Es
+            ágil y rápido, lo que le permite esquivar ataques con facilidad.
+          </p>
+          <div class="carousel">
+            <img id="pikachuImage" src="media/pikachu.png" alt="Pikachu" />
+          </div>
+        </div>
+        <button onclick="nextImage('pikachu')">
+          Cambiar Imagen de Pikachu
+        </button>
+      </section>
+
+      <section id="charmander" class="pokemon-section">
+        <h2 style="color: orange">Charmander</h2>
+        <div class="pokemon-info">
+          <p>
+            Charmander es un Pokémon de tipo Fuego, fácilmente reconocible por
+            la llama que arde en la punta de su cola, la cual refleja su estado
+            de salud. A medida que crece, Charmander evoluciona en Charmeleon,
+            donde se vuelve más agresivo y su llama aumenta en tamaño y poder.
+            Finalmente, Charmeleon evoluciona en Charizard, una majestuosa
+            criatura similar a un dragón que adquiere la capacidad de volar.
+            Charizard es conocido por su gran poder de ataque y su capacidad
+            para lanzar potentes ráfagas de fuego, convirtiéndose en una de las
+            evoluciones más imponentes y queridas de la serie.
+          </p>
+          <div class="carousel">
+            <img
+              id="charmanderImage"
+              src="media/Charmander.webp"
+              alt="Charmander"
+            />
+          </div>
+        </div>
+        <button onclick="nextImage('charmander')">
+          Cambiar Imagen de Charmander
+        </button>
+      </section>
+
+      <section id="squirtle" class="pokemon-section">
+        <h2 style="color: blue">Squirtle</h2>
+        <div class="pokemon-info">
+          <p>
+            Squirtle es un Pokémon de tipo Agua, famoso por su caparazón que
+            utiliza tanto para protegerse como para desplazarse a gran velocidad
+            en el agua. Al evolucionar en Wartortle, su caparazón se vuelve más
+            grande y su cola adquiere una forma peluda, simbolizando su
+            crecimiento en fuerza y defensa. Finalmente, Wartortle evoluciona en
+            Blastoise, una poderosa criatura equipada con cañones de agua en su
+            caparazón, capaces de lanzar potentes chorros a alta presión.
+            Blastoise es admirado por su gran resistencia y habilidades
+            defensivas, convirtiéndose en un símbolo de poder acuático en el
+            universo Pokémon.
+          </p>
+          <div class="carousel">
+            <img id="squirtleImage" src="media/squirtle.png" alt="Squirtle" />
+          </div>
+        </div>
+        <button onclick="nextImage('squirtle')">
+          Cambiar Imagen de Squirtle
+        </button>
+      </section>
+
+      <section id="bulbasaur" class="pokemon-section">
+        <h2 style="color: green">Bulbasaur</h2>
+        <div class="pokemon-info">
+          <p>
+            Bulbasaur es un Pokémon de tipo Planta/Veneno, conocido por la
+            planta que crece en su espalda y que le permite absorber energía del
+            sol. A medida que evoluciona en Ivysaur, la planta se convierte en
+            un capullo que comienza a florecer, reflejando su aumento en fuerza
+            y habilidades basadas en la naturaleza. Finalmente, Ivysaur
+            evoluciona en Venusaur, donde el capullo se convierte en una gran
+            flor que potencia sus ataques de tipo Planta. Venusaur es una
+            evolución imponente, capaz de liberar poderosos ataques como Rayo
+            Solar, consolidándose como uno de los Pokémon más fuertes en
+            términos de control de la naturaleza.
+          </p>
+          <div class="carousel">
+            <img
+              id="bulbasaurImage"
+              src="media/bulbasaur.png"
+              alt="Bulbasaur"
+            />
+          </div>
+        </div>
+        <button onclick="nextImage('bulbasaur')">
+          Cambiar Imagen de Bulbasaur
+        </button>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
